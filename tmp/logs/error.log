@@ -2163,3 +2163,660 @@ Stack Trace:
 #10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
 #11 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2015-11-03 09:12:13 Error: [MissingActionException] Action TemplesController::temple() could not be found.
+Exception Attributes: array (
+  'controller' => 'TemplesController',
+  'action' => 'temple',
+)
+Request URL: /templeget/temples/temple
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TemplesController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-11-03 09:12:58 Error: [MissingControllerException] Controller class TempleController could not be found.
+Exception Attributes: array (
+  'class' => 'TempleController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/temple
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:17:50 Error: [MissingControllerException] Controller class UserTemplesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserTemplesController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/user_temples
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:17:58 Error: [MissingControllerException] Controller class UserTempleController could not be found.
+Exception Attributes: array (
+  'class' => 'UserTempleController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/user_temple
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:18:48 Error: [MissingControllerException] Controller class UserTemplesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserTemplesController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/user_temples
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:18:53 Error: [MissingControllerException] Controller class UserTemplesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserTemplesController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/user_temples/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:19:24 Error: [MissingControllerException] Controller class UserTemplesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserTemplesController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/user_temples/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:20:30 Error: [MissingControllerException] Controller class UserTemplesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserTemplesController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/user_temples/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:20:33 Error: [MissingControllerException] Controller class UserTemplesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserTemplesController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/user_temples/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 09:41:12 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 188]
+2015-11-03 09:41:12 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /templeget/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 188)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 188, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 188, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:41:31 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:41:31 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:43:12 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:43:12 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:43:41 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:43:41 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:44:14 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:44:14 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:45:36 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:45:36 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:46:52 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:46:52 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:47:26 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:47:26 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:48:33 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:48:33 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:49:20 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:49:20 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:57:38 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:57:38 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 09:58:20 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 191]
+2015-11-03 09:58:20 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 191)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 191, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 191, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 10:59:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Temple`...', Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Temple`...', Array, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT `Temple`...', false)
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): DboSource->read(Object(Temple), Array)
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(198): Model->find('all', Array)
+#7 [internal function]: TemplesController->templelist()
+#8 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-03 11:00:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Temple`...', Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Temple`...', Array, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT `Temple`...', false)
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): DboSource->read(Object(Temple), Array)
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(198): Model->find('all', Array)
+#7 [internal function]: TemplesController->templelist()
+#8 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-11 16:14:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /templeget/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3621): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3648): Model->setSource('temples')
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(152): Model->find('all')
+#8 [internal function]: TemplesController->index()
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-11-11 16:14:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /templeget/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3621): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3648): Model->setSource('temples')
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(152): Model->find('all')
+#8 [internal function]: TemplesController->index()
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-11-11 16:14:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /templeget/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3621): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3648): Model->setSource('temples')
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(152): Model->find('all')
+#8 [internal function]: TemplesController->index()
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-11-11 16:14:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /templeget/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3621): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3648): Model->setSource('temples')
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(152): Model->find('all')
+#8 [internal function]: TemplesController->index()
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-11-11 16:14:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /templeget/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3621): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3648): Model->setSource('temples')
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(152): Model->find('all')
+#8 [internal function]: TemplesController->index()
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-11-11 16:14:53 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /templeget/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3621): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3648): Model->setSource('temples')
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(152): Model->find('all')
+#8 [internal function]: TemplesController->index()
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-11-11 16:16:28 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-11 16:16:28 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /templeget/temples/userpage?lati=35.6520037&long=139.7045331
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 16:17:02 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-11 16:17:02 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /templeget/temples/userpage?lati=35.6519903&long=139.704531
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 16:19:15 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-11 16:19:15 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /templeget/temples/userpage?lati=35.6519903&long=139.704531
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 16:20:18 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-11 16:20:18 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /templeget/temples/userpage?lati=35.652046399999996&long=139.70451029999998
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 16:26:42 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-11 16:26:42 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /templeget/temples/userpage?lati=35.6520115&long=139.7045321
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 16:27:55 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-11 16:27:55 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /templeget/temples/userpage?lati=35.6521101&long=139.70450879999999
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 17:16:46 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/Applications/MAMP/htdocs/templeget/app/View/Temples/userpage.ctp, line 155]
+2015-11-11 17:16:46 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 155)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 155, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 155, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 17:22:08 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/Applications/MAMP/htdocs/templeget/app/View/Temples/userpage.ctp, line 155]
+2015-11-11 17:22:08 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 155)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 155, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 155, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 17:23:14 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/Applications/MAMP/htdocs/templeget/app/View/Temples/userpage.ctp, line 155]
+2015-11-11 17:23:14 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 155)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 155, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 155, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 17:23:36 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/Applications/MAMP/htdocs/templeget/app/View/Temples/userpage.ctp, line 156]
+2015-11-11 17:23:36 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 156)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 156, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 156, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 17:28:18 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/templeget/app/View/Temples/userpage.ctp, line 174]
+2015-11-11 17:28:18 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 174)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 174, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 174, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 17:29:12 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/templeget/app/View/Temples/userpage.ctp, line 174]
+2015-11-11 17:29:12 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 174)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 174, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 174, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-11 17:30:24 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/templeget/app/View/Temples/userpage.ctp, line 174]
+2015-11-11 17:30:24 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 174)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 174, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 174, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 08:29:48 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 230]
+2015-11-12 08:29:48 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /templeget/temples/userpage?lati=35.6520807&long=139.70444899999998
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 230)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 230, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 230, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 08:41:52 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-12 08:41:52 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 08:42:13 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php, line 232]
+2015-11-12 08:42:13 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /templeget/temples/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 232)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 232, Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 232, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 08:43:05 Error: [MissingControllerException] Controller class UserpageController could not be found.
+Exception Attributes: array (
+  'class' => 'UserpageController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 08:43:20 Error: [MissingControllerException] Controller class UserpageController could not be found.
+Exception Attributes: array (
+  'class' => 'UserpageController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 08:43:23 Error: [MissingControllerException] Controller class UserpageController could not be found.
+Exception Attributes: array (
+  'class' => 'UserpageController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 08:43:29 Error: [MissingControllerException] Controller class UserpageController could not be found.
+Exception Attributes: array (
+  'class' => 'UserpageController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/userpage
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 12:39:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserTemple.status' in 'where clause'
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT COUNT(DI...', Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT COUNT(DI...', Array, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT COUNT(DI...', false)
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): DboSource->read(Object(AppModel), Array)
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('count', Array)
+#6 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(187): Model->find('count', Array)
+#7 [internal function]: TemplesController->templelist()
+#8 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-12 12:40:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User_temples.temple_id' in 'field list'
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT COUNT(DI...', Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT COUNT(DI...', Array, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT COUNT(DI...', false)
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): DboSource->read(Object(AppModel), Array)
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('count', Array)
+#6 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(187): Model->find('count', Array)
+#7 [internal function]: TemplesController->templelist()
+#8 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-12 12:40:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_temples.temple_id' in 'field list'
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT COUNT(DI...', Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT COUNT(DI...', Array, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT COUNT(DI...', false)
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): DboSource->read(Object(AppModel), Array)
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('count', Array)
+#6 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(187): Model->find('count', Array)
+#7 [internal function]: TemplesController->templelist()
+#8 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-12 12:44:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_temples.temple_id' in 'field list'
+Request URL: /templeget/temples/templelist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT COUNT(DI...', Array)
+#2 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT COUNT(DI...', Array, Array)
+#3 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT COUNT(DI...', false)
+#4 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(3026): DboSource->read(Object(AppModel), Array)
+#5 /Applications/MAMP/htdocs/templeget/lib/Cake/Model/Model.php(2998): Model->_readDataSource('count', Array)
+#6 /Applications/MAMP/htdocs/templeget/app/Controller/TemplesController.php(187): Model->find('count', Array)
+#7 [internal function]: TemplesController->templelist()
+#8 /Applications/MAMP/htdocs/templeget/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TemplesController), Array)
+#9 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/templeget/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TemplesController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-12 13:35:35 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /templeget/img//104350b.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 19:34:55 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/favicon.ico?date=2015-11-12
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 06:03:26 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /templeget/favicon.ico?date=2015-11-13
+Stack Trace:
+#0 /Applications/MAMP/htdocs/templeget/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

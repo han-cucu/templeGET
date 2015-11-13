@@ -4,12 +4,12 @@ class Temple extends AppModel {
 	public $hasAndBelongsToMany = array(
 		'User' =>
 			array(
-				'className'              => 'user',
+				'className'              => 'User',
       			'joinTable'              => 'user_temples',
       			'foreignKey'             => 'temple_id',
       			'associationForeignKey'  => 'user_id',
       			'unique'                 => true
-      			)
+      		)
     );
 	public $validate = array(
 		'name' => array(

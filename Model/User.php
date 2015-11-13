@@ -9,7 +9,7 @@ class User extends AppModel {
     public $hasAndBelongsToMany = array(
         'Temple' =>
             array(
-                'className'              => 'temple',
+                'className'              => 'Temple',
                 'joinTable'              => 'user_temples',
                 'foreignKey'             => 'user_id',
                 'associationForeignKey'  => 'temple_id',

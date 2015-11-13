@@ -20,9 +20,16 @@ echo $this->Html->link($temple['Temple']['name'],'/temples/view/'.$temple['Templ
 <br>
 <?php echo $this->Html->link('back', array('controller'=>'temples','action'=>'userpage')); ?>
 
-<?php debug($user_temples); ?>
 
-<?php foreach ($user_temples as $user_temple) : ?>
-<?php echo $user_temple['Temple']['id'];?>
+
+<?php debug($user_temples); ?>
+<?php $count = 0;?>
+<?php foreach ($user_temples as $usertemple) : ?>
+<?php echo $usertemple['UserTemple']['temple_id'];?>
+<?php $count = $count + 1;?>
 <?php endforeach; ?>
+<br>
+<?php echo 'coumt got temple ->'.$count;?>
+
+
 
